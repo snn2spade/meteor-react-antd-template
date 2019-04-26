@@ -1,0 +1,21 @@
+.ant-layout {
+    height: 100% !important;
+}
+
+.ant-layout-content > div > .ant-row:last-child {
+    margin-bottom: 20px !important;
+}
+
+#version-label {
+    color: white !important;
+    cursor: default;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    margin-top: 7px !important;
+    margin-bottom: 7px !important;
+}
+
+.ant-input-disabled, input, .ant-select-selection__rendered {
+    color: black !important;
+}

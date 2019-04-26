@@ -1,0 +1,33 @@
+{
+  "name": "meteor-react-template",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.3.4",
+    "antd": "^3.16.5",
+    "history": "^4.9.0",
+    "indexof": "0.0.1",
+    "izitoast": "^1.4.0",
+    "log4js": "^4.1.0",
+    "meteor-node-stubs": "^0.4.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.2.3",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.1",
+    "react-dom": "^16.6.0",
+    "react-router-dom": "^5.0.0",
+    "underscore": "^1.9.1"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}

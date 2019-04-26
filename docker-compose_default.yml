@@ -1,0 +1,13 @@
+# docker-compose.yml
+version: "2"
+services:
+  meteor_app:
+    build: .
+    ports:
+      - "8080:8080"
+
+    environment:
+      - PORT=8080
+      - ROOT_URL=http://localhost
+      - METEOR_SETTINGS={"logging_folder_path":"[log_folder_path]"}
+      - MONGO_URL=mongodb://[MONGO_USER]:[MONGO_PASS]@[MONGO_URL]:27017/[MONGO_AUTH_DB]

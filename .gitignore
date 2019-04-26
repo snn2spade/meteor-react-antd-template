@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+.meteor/local
+.build/
+logs/
+settings.json
+settings_local.json
+settings_staging.json
+settings_prod.json
