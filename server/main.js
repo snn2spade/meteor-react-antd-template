@@ -16,6 +16,5 @@ Meteor.startup(() => {
 
     if (Meteor.settings.logging_folder_path === undefined) {
         logger.error("Cannot load Meteor config file.");
-        process.exit(1)
     }
 });

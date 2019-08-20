@@ -8,19 +8,19 @@
     "visualize": "meteor --production --extra-packages bundle-visualizer"
   },
   "dependencies": {
-    "@babel/runtime": "^7.3.4",
-    "antd": "^3.16.5",
+    "@babel/runtime": "^7.5.5",
+    "antd": "^3.22.0",
     "history": "^4.9.0",
     "indexof": "0.0.1",
     "izitoast": "^1.4.0",
-    "log4js": "^4.1.0",
+    "log4js": "^5.0.0",
     "meteor-node-stubs": "^0.4.1",
     "moment": "^2.24.0",
-    "mongodb": "^3.2.3",
+    "mongodb": "^3.3.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.1",
-    "react-dom": "^16.6.0",
-    "react-router-dom": "^5.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router-dom": "^5.0.1",
     "underscore": "^1.9.1"
   },
   "meteor": {
